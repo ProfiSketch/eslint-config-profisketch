@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-profisketch",
+  "name": "profisketch-eslint",
   "version": "0.0.3",
-  "description": "Unified ESlint config that used across ProfiSketch projects",
+  "description": "A monorepo for ProfiSketch ESlint configs",
   "main": "index.js",
   "author": "Yakovlev Kll <yakovlev.kll@gmail.com>",
   "repository": "git@github.com:ProfiSketch/eslint-config-profisketch.git",
@@ -11,25 +11,14 @@
     "prepare": "husky install",
     "release": "npx standard-version"
   },
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.53.0",
-    "@typescript-eslint/parser": "^5.53.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-import": "^2.27.5"
-  },
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
     "eslint": "^8.35.0",
+    "eslint-config-profisketch": "^0.0.3",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.2",
     "prettier": "^2.8.4"
-  },
-  "peerDependencies": {
-    "eslint": "^8.34.0",
-    "prettier": "^2.8.4",
-    "typescript": "^4.6.0"
   },
   "lint-staged": {
     "*.{md,json,js}": "prettier --write",
