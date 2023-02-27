@@ -1,0 +1,45 @@
+{
+  "releaseCommitMessageFormat": "chore(release): 🔖 v{{currentTag}}",
+  "types": [
+    {
+      "type": "feat",
+      "section": "Новые функции"
+    },
+    {
+      "type": "fix",
+      "section": "Исправление ошибок"
+    },
+    {
+      "type": "chore",
+      "section": "CI/CD etc."
+    },
+    {
+      "type": "docs",
+      "section": "Документация"
+    },
+    {
+      "type": "style",
+      "section": "CI/CD etc."
+    },
+    {
+      "type": "ci",
+      "section": "CI/CD etc."
+    },
+    {
+      "type": "build",
+      "section": "CI/CD etc."
+    },
+    {
+      "type": "refactor",
+      "section": "Улучшения"
+    },
+    {
+      "type": "perf",
+      "section": "Улучшения"
+    },
+    {
+      "type": "test",
+      "section": "Тестирование"
+    }
+  ]
+}
