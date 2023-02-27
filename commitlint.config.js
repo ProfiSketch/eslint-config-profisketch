@@ -1,7 +1,6 @@
-import type { UserConfig } from '@commitlint/types'
 // import { RuleConfigSeverity } from '@commitlint/types'
 
-const Configuration: UserConfig = {
+const Configuration = {
   /*
    * Resolve and load @commitlint/config-conventional from node_modules.
    * Referenced packages must be installed
