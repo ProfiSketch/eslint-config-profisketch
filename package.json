@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-profisketch",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Unified ESlint config that used across ProfiSketch projects",
   "main": "index.js",
   "author": "Yakovlev Kll <yakovlev.kll@gmail.com>",
