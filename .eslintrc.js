@@ -22,5 +22,12 @@ module.exports = {
     'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single'],
     semi: ['error', 'never'],
+    'no-alert': 'error',
+    'no-await-in-loop': 'error',
+    'no-compare-neg-zero': 'warn',
+    'no-console': 'error',
+    'no-magic-numbers': 'warn',
+    'no-process-env': 'error',
+    'no-var': 'error',
   },
 }
