@@ -10,4 +10,9 @@ module.exports = {
     'plugin:tailwindcss/recommended',
     'profisketch',
   ],
+  rules: {
+    'tailwindcss/no-arbitrary-value': 'warn',
+    'tailwindcss/no-custom-classname': 'off',
+    'tailwindcss/classnames-order': 'off',
+  },
 }
