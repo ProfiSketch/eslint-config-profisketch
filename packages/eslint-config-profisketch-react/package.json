@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-profisketch-react",
+  "version": "0.0.3",
+  "description": "Unified ESlint config that used across ProfiSketch projects",
+  "main": "index.js",
+  "author": "Yakovlev Kll <yakovlev.kll@gmail.com>",
+  "repository": "git@github.com:ProfiSketch/eslint-config-profisketch.git",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-next": "^13.2.1",
+    "eslint-config-profisketch": "^0.0.3",
+    "eslint-plugin-tailwindcss": "^3.9.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.34.0",
+    "prettier": "^2.8.4",
+    "tailwindcss": "^3.2.2",
+    "typescript": "^4.6.0"
+  }
+}
