@@ -1,6 +1,6 @@
 {
   "name": "profisketch-eslint",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "A monorepo for ProfiSketch ESlint configs",
   "main": "index.js",
   "author": "Yakovlev Kll <yakovlev.kll@gmail.com>",
